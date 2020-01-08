@@ -5,7 +5,7 @@ var express = require('express');
 var app = express();
 
 //caps for constant stuff
-const PORT = 3000;
+const PORT = process.env.PORT || 3000;
 
 
 app.get('/',(req,res)=>{
@@ -14,7 +14,8 @@ app.get('/',(req,res)=>{
 
 app.get('/pokemon', (res,req)=>{
     res.json({
-        
+        name:"Bulbasaur",
+        type: "grass"
     })
 })
 
