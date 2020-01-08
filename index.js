@@ -12,7 +12,7 @@ app.get('/',(req,res)=>{
     res.send('Welcome to my API!')
 })
 
-app.get('/pokemon', (res,req)=>{
+app.get('/pokemon', (req, res)=>{
     res.json({
         name:"Bulbasaur",
         type: "grass"
