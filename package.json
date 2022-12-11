@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Crunchy126/pokemonApi#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
